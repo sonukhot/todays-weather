@@ -119,7 +119,7 @@ const YesIntent = {
 
 const ExitHandler = {
     canHandle(handlerInput) {
-        return handlerInput.requestEnvelope.request.type === 'ISessionEndedRequest'
+        return handlerInput.requestEnvelope.request.type === 'SessionEndedRequest'
 
     },
     handle(handlerInput) {
