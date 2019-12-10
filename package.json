@@ -1,0 +1,26 @@
+{
+  "name": "todays-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonukhot/todays-weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonukhot/todays-weather/issues"
+  },
+  "homepage": "https://github.com/sonukhot/todays-weather#readme",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.25.1",
+    "axios": "^0.19.0",
+    "oauth": "^0.9.15"
+  },
+  "devDependencies": {}
+}
