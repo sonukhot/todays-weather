@@ -1,0 +1,65 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "today's weather",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WeatherIntent",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.US_CITY"
+                        }
+                    ],
+                    "samples": [
+                        "{city}",
+                        "What is todays weather in {city}",
+                        "What is the weather like in {city} ",
+                        "What will be the temperatures in {city} ",
+                        "What is the weather condition today  for {city} ",
+                        "What is the temperature in {city} "
+                    ]
+                },
+                {
+                    "name": "AMAZON.SearchAction<object@WeatherForecast[temperature]>",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.SearchAction<object@WeatherForecast[weatherCondition]>",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
